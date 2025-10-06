@@ -27,5 +27,5 @@ plt.axis("off")
 plt.subplot(2,3,4), plt.imshow(speckle_noisy,cmap='gray'), plt.title("Speckle Noise")
 plt.axis("off")
 plt.subplot(2,3,5), plt.imshow(speckle_denoised,cmap='gray'), plt.title("Denoised (Gaussian)")
-plt.axis("off")w
+plt.axis("off")
 plt.show()
